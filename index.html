@@ -15,68 +15,510 @@
       <!-- CSS:: FONTS -->
       <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">  
       <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet"> 
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">  
 
       <!-- CSS:: BOOTSTRAP -->	
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css">      
-
-      <!-- bxSlider CSS file -->
-      <link href="assets/css/jquery.bxslider.css" rel="stylesheet" >
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">    
 
       <!-- CSS:: OWL -->
-      <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" >     
+      <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" >  
+
+      <!-- bxSlider CSS file -->
+      <link href="assets/css/jquery.bxslider.css" rel="stylesheet" >   
 
       <!-- CSS:: -->
       <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/main.css"> 
+      <link rel="stylesheet" type="text/css" href="assets/css/main_01.css"> 
       
  </head>
  <body>  
- <div class="p-wrapper p-landing">  
-   <div class="p-landing_head">
-     <a href="index.html"><img src="assets/images/logo_landing.png" alt="" class="img-responsive"></a>
-   </div> 
-   <div class="p-landing_outer">
-     <div class="container">
-       <div class="row">
-         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-           <div class="p-landing_single_outer">
-             <a href="index_01.html"><img src="assets/images/landing_01.jpg" alt="" class="img-responsive"></a>
-             <div class="p-landing_title">
-               <h3><a href="index_01.html">Home I</a></h3>
+ <div class="p-wrapper"> 
+    <header>
+      <div class="p-header_outer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 p-logo">
+              <a href="#"><img src="assets/images/v2/logo.png" class="img-responsive" alt=""></a>
+            </div>
+           <div class="p-nav_icon">
+             <i class="fa fa-bars fa-2" aria-hidden="true"></i>
+             <i class="fa fa-times" aria-hidden="true"></i>
+           </div> 
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 p-header_nav p-one_page p-nav">
+              <nav>
+                <ul>  
+                  <li><a href="#p-header_outer">Home</a></li> 
+                  <li><a href="#p-services">Our Services</a></li>
+                  <li><a href="#p-booth">Our Booths</a></li>
+                  <li><a href="#p-gallery">Our Gallery</a></li>
+                  <li><a href="#p-blog">Blog</a></li>
+                  <li><a href="#p-footer_outer">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="p-top_social">
+                <ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section> 
+      <div class="p-slider_outer">
+        <div class="p-slider" id="p-slider">
+          <div class="p-slide_single">
+            <img src="assets/images/v2/banner_01.jpg" class="img-responsive" alt="">
+            <div class="p-slider_text">
+              <div class="container">
+                <div class="row clearfix">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="assets/images/v2/banner_01_01.png" alt="">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-banner_text">
+                    <h1>
+                      <span>If You Want to Have Fun</span>
+                      Just Say Cheese!
+                    </h1>
+                    <a href="#" class="p-button">click here</a>
+                  </div>
+                </div>
+              </div>
+            </div>     
+          </div>  
+          <div class="p-slide_single">
+            <img src="assets/images/v2/banner_02.jpg" class="img-responsive" alt="">
+            <div class="p-slider_text">
+              <div class="container">
+                <div class="row clearfix">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="assets/images/v2/banner_02_01.png" alt="">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-banner_text">
+                    <h1>
+                      <span>If You Want to Have Fun</span>
+                      Just Say Cheese!
+                    </h1>
+                    <a href="#" class="p-button">click here</a>
+                  </div>
+                </div>
+              </div>
+            </div>     
+          </div> 
+        </div>
+        <div class="p-slide_buttons">
+          <div>
+            <div class="p-prev" id="p-slide_prev"><i class="fa fa-angle-left p-triangle_left"></i></div>
+            <div class="p-next" id="p-slide_next"><i class="fa fa-angle-right p-triangle_right"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="p-section_outer p-about" id="p-about">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 p-img_border">
+              <img src="assets/images/v2/about.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+              <h2 class="p-title p-title_left">
+                 ABOUT US <span></span>
+              </h2>
+              <p>
+                Time Of your life photo booths transpired by a husband and wife team with more than ten years in the event rental industry. Our goal is to simply provide our customers with unparalleled customer service, first-class quality photos, and the largest, most fun, photo booth available at a superb value anywhere in Arizona.Photo booth rentals are great for just about any occasion where guests are looking to have a good time
+              </p>
+              <a href="#" class="p-button">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="p-section_outer p-bg_gray p-services" id="p-services">
+        <div class="container">
+          <h2 class="p-title p-title_center">
+            our services  <span></span>
+          </h2>
+          <div class="row clearfix"> 
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+               <div class="p-service_outer">
+                 <img src="assets/images/v2/service_01.jpg" class="img-responsive" alt="">
+                 <div class="p-service_over">
+                   <div class="p-service_icon"><img src="assets/images/v2/icon_05.png" alt=""></div>
+                   <p>
+                     Poser is beautifully designed, built with the best materials and with a lot of love.
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="p-service_outer">
+               <img src="assets/images/v2/service_02.jpg" class="img-responsive" alt="">
+               <div class="p-service_over">
+                 <div class="p-service_icon"><img src="assets/images/v2/icon_06.png" alt=""></div>
+                 <p>
+                   Poser can be customized - we’ll fit in perfectly at any event! Pinky-swear.
+                 </p>
+               </div>
+              </div> 
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="p-service_outer">
+               <img src="assets/images/v2/service_03.jpg" class="img-responsive" alt="">
+               <div class="p-service_over">
+                 <div class="p-service_icon"><img src="assets/images/v2/icon_03.png" alt=""></div>
+                 <p>
+                   Want to take home a photo? Deals. We have fast, on-site printing.
+                 </p>
+               </div>
+              </div> 
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="p-service_outer">
+               <img src="assets/images/v2/service_04.jpg" class="img-responsive" alt="">
+               <div class="p-service_over">
+                 <div class="p-service_icon"><img src="assets/images/v2/icon_04.png" alt=""></div>
+                 <p>
+                   Go ahead. Share all your photos on social media, right at the booth! We're rocking GIFs now!
+                 </p>
+               </div>
+              </div> 
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="p-service_outer">
+               <img src="assets/images/v2/service_05.jpg" class="img-responsive" alt="">
+               <div class="p-service_over">
+                 <div class="p-service_icon"><img src="assets/images/v2/icon_01.png" alt=""></div>
+                 <p>
+                   Can’t find your photos at the end of the night? It’s cool - you can download for free from us.
+                 </p>
+               </div>
+              </div> 
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="p-service_outer"> 
+               <img src="assets/images/v2/service_06.jpg" class="img-responsive" alt="">
+               <div class="p-service_over">
+                 <div class="p-service_icon"><img src="assets/images/v2/icon_02.png" alt=""></div>
+                 <p>
+                   I’m excited. You are too? Yes! Dance break!
+                 </p>
+               </div>
+              </div> 
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="p-section_outer p-about p-booth" id="p-booth">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+              <img src="assets/images/v2/booth.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+              <h2 class="p-title p-title_left">
+                 Our Booths <span></span>
+              </h2>
+              <p>
+                Time Of your life photo booths transpired by a husband and wife team with more than ten years in the event rental industry. Our goal is to simply provide our customers with unparalleled customer service, first-class quality photos, and the largest, most fun, photo booth available at a superb value anywhere in Arizona.
+              </p>
+              <p>
+                Photo booth rentals are great for just about any occasion where guests are looking to have a good time; wedding, proms, high school reunions, bar mitzvahs, bat mitzvah, corporate events, holiday parties and more. 
+              </p>
+              <a href="#" class="p-button">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="p-section_outer p-bg_gray p-gallery" id="p-gallery">
+         <h2 class="p-title p-title_center">
+            our gallery <span></span>
+         </h2>
+         <div class="p-gallery_listing">
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_01.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
+             </div>
+           </div>
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_02.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
+             </div>
+           </div>
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_03.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
+             </div>
+           </div>
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_04.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
+             </div>
+           </div>
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_05.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
+             </div>
+           </div>
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_06.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
+             </div>
+           </div>
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_07.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
+             </div>
+           </div>
+           <div class="p-gallery_single">
+             <img src="assets/images/v2/og_img_08.jpg" class="img-responsive" alt="">
+             <div class="p-gallery_over">
+               <i class="fa fa-search"></i>
+               <span>Heading</span>
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-           <div class="p-landing_single_outer">
-             <a href="index_02.html"><img src="assets/images/landing_02.jpg" alt="" class="img-responsive"></a>
-             <div class="p-landing_title">
-               <h3><a href="index_02.html">Home II</a></h3>
+      </div>
+    </section>
+    <section>
+      <div class="p-section_outer p-about p-faq" id="p-faq">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+              <img src="assets/images/v2/faq.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+              <h2 class="p-title p-title_left">
+                 Frequently asked questions <span></span>
+              </h2>
+              <ul> 
+                <li>Is there a deposit required to reserve an event date?</li>
+                <li>My event is only two hours long, is there a minimum length of time</li>
+                <li>I need to reserve a booth for?</li>
+                <li>I have seen other companies provide scrapbooks for the host, is that included?</li>
+                <li>What about the fun props, are they included too?</li>
+                <li>Will someone be there to help with the scrapbook?</li>
+                <li>Can I customize my logo or text on the strips??</li>
+              </ul>
+              <a href="#" class="p-button">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section>
+      <div class="p-section_outer p-bg_gray p-blog" id="p-blog">
+        <div class="container">
+          <h2 class="p-title p-title_center">
+            our blog <span></span>
+          </h2>
+          <div class="row clearfix p-blog_list">
+             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-blog_list_single">
+               <div class="p-blog_list_in">
+                 <img src="assets/images/v2/blog_img_01.jpg" class="img-responsive" alt="">
+                 <div class="p-blog_info">
+                   <a href="#">heading 01</a>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem urna, imperdiet in dict... 
+                   </p>
+                 </div>
+               </div>
+               <div class="p-blog_detail">
+                 <span class="p-user_blog"><i class="fa fa-user"></i> John Dow</span>
+                 <span class="p-date_blog"><i class="fa fa-calendar"></i> 28 / 10 / 2017</span>
+               </div>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-blog_list_single">
+               <div class="p-blog_list_in">
+                 <img src="assets/images/v2/blog_img_02.jpg" class="img-responsive" alt="">
+                 <div class="p-blog_info">
+                   <a href="#">heading 02</a>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem urna, imperdiet in dict... 
+                   </p>
+                 </div>
+               </div>
+               <div class="p-blog_detail">
+                 <span class="p-user_blog"><i class="fa fa-user"></i> John Dow</span>
+                 <span class="p-date_blog"><i class="fa fa-calendar"></i> 28 / 10 / 2017</span>
+               </div>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-blog_list_single">
+               <div class="p-blog_list_in">
+                 <img src="assets/images/v2/blog_img_03.jpg" class="img-responsive" alt="">
+                 <div class="p-blog_info">
+                   <a href="#">heading 03</a>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem urna, imperdiet in dict...
+                   </p>
+                 </div>
+               </div>
+               <div class="p-blog_detail">
+                 <span class="p-user_blog"><i class="fa fa-user"></i> John Dow</span>
+                 <span class="p-date_blog"><i class="fa fa-calendar"></i> 28 / 10 / 2017</span>
+               </div>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-blog_list_single">
+               <div class="p-blog_list_in">
+                 <img src="assets/images/v2/blog_img_04.jpg" class="img-responsive" alt="">
+                 <div class="p-blog_info">
+                   <a href="#">heading 04</a>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem urna, imperdiet in dict... 
+                   </p>
+                 </div>
+               </div>
+               <div class="p-blog_detail">
+                 <span class="p-user_blog"><i class="fa fa-user"></i> John Dow</span>
+                 <span class="p-date_blog"><i class="fa fa-calendar"></i> 28 / 10 / 2017</span>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="p-section_outer p-bg_gray p-testimonials" id="p-testimonials">
+        <div class="container">
+          <h2 class="p-title p-title_center">
+            testimonials <span></span>
+          </h2> 
+        </div> 
+        <div class="container">
+         <div class="p-testimonial">
+          <div class="p-testimonial_list">
+           <div class="p-testimonal_carousel owl-carousel">
+             <div class="p-testimonial_single">
+               <div class="p-testimonial_text">
+                 <img src="assets/images/user.jpg" class="img-responsive" alt="">
+                 <p>
+                   These guys were great! Very easy to work with! They were on time to setup, booth was very easy to use and our guests couldn’t stop talking about it the entire night. Highly recommended to everyone!! Thanks so much!!
+                 </p>
+                 <h5>Amos leo</h5>
+                 <span>Ceo of Cilacorp</span>
+               </div>
+             </div>
+             <div class="p-testimonial_single">
+               <div class="p-testimonial_text">
+                 <img src="assets/images/user.jpg" class="img-responsive" alt="">
+                 <p>
+                   These guys were great! Very easy to work with! They were on time to setup, booth was very easy to use and our guests couldn’t stop talking about it the entire night. Highly recommended to everyone!! Thanks so much!!
+                 </p>
+                 <h5>Amos leo</h5>
+                 <span>Ceo of Cilacorp</span>
+               </div>
+             </div>
+             <div class="p-testimonial_single">
+               <div class="p-testimonial_text">
+                 <img src="assets/images/user.jpg" class="img-responsive" alt="">
+                 <p>
+                   These guys were great! Very easy to work with! They were on time to setup, booth was very easy to use and our guests couldn’t stop talking about it the entire night. Highly recommended to everyone!! Thanks so much!!
+                 </p>
+                 <h5>Amos leo</h5>
+                 <span>Ceo of Cilacorp</span>
+               </div>
              </div>
            </div>
+          </div> 
          </div>
-         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-           <div class="p-landing_single_outer">
-             <a href="index_03.html"><img src="assets/images/landing_03.jpg" alt="" class="img-responsive"></a>
-             <div class="p-landing_title">
-               <h3><a href="index_03.html">Home III</a></h3>
-             </div>
-           </div>
-         </div>
+       </div> 
+       <div class="p-testimonial_bg">
+          <img src="assets/images/v2/testimonial_bg.jpg" class="img-responsive" alt="">
        </div>
-     </div>
-   </div>
- </div>
-
+      </div>
+    </section>
+    <footer>
+      <div class="p-footer_outer">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+              <div class="p-footer_form_outer">
+                <div class="p-footer_form">
+                  <h5>Send message</h5>
+                  <form action="#">
+                    <input placeholder="Name" type="text">
+                    <input placeholder="Email" type="email">
+                    <textarea placeholder="Message"></textarea>
+                    <input class="p-button" value="submit" type="submit">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+              <div class="row clearfix">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 p-footer_contact"> 
+                  <div>
+                    <span>Location</span>
+                    <p>9958 Roehampton St.Redford, MI 48239</p>
+                  </div>
+                  <div>
+                    <span>Email</span>
+                    <a href="mailto:Info@PhotoBooths.com">Info@PhotoBooths.com</a>
+                  </div> 
+                  <div>
+                    <span>Phone</span>
+                    <a href="tel:6023153619">602.315.3619</a>
+                  </div>  
+                </div> 
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <ul class="p-footer_social"> 
+                   <li><a href="#" class="fa fa-facebook"></a>Facebook</li>
+                   <li><a href="#" class="fa fa-twitter"></a>Twitter</li> 
+                   <li><a href="#" class="fa fa-pinterest"></a>Pinterest</li>
+                   <li><a href="#" class="fa fa-instagram"></a>Instagram</li> 
+                  </ul>
+                </div>
+              </div>
+              <div class="p-footer_nav">
+                <nav>
+                  <ul> 
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Booths</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">View event</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+                <p>Copyright 2017  Photobooth  |   All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+ </div> 
  <!-- JQUERY:: JQUERY.JS -->
  <script type="text/javascript" src="assets/js/jquery.min.js"></script>    
  <script type="text/javascript" src="assets/js/jquery-migrate-3.0.0.min.js"></script> 
 
  <!-- JQUERY:: JQUERY.JS -->
- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>    
+ <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>     
 
  <!-- JQUERY:: OWL.JS -->
- <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script> 
+ <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 
  <!-- JQUERY:: bxSlider-->
  <script type="text/javascript" src="assets/js/jquery.bxslider.min.js"></script>
